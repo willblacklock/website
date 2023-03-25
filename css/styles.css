@@ -1,0 +1,193 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+h2{
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Montserrat-Light";
+  color: #8f8f8f;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Bold";
+  letter-spacing: 1.2rem;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 17%;
+  color: #0088CC;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section colours*/
+.coloured {
+  background-color: #eeeeee;
+  color: #0088CC;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.dark{
+  background-color: #666666;
+  color: #ffffff;
+}
+
+.dark a{
+  color: #ffffff;
+}
+
+.dark a:hover{
+  color: #0088CC;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Title section  */
+#title .container-fluid {
+  padding: 2% 15% 20%;
+  display: block;
+  height: 100vh;
+}
+
+/* Download buttons  */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* About me section  */
+
+#about-me .container-fluid{
+  text-align: left;
+}
+
+.about-me-text{
+
+}
+
+.profile-pic {
+  width: 70%;
+  position: relative;
+  left: 10%;
+}
+
+/* Features section */
+#features {
+  /* position: relative;
+  z-index: 1 */
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+.feature-icon {
+  color: #0088CC;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #666666;
+}
+
+/* Testimonials section  */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section  */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-heading {
+  font-size: 1.5rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* CTA  */
+.social-icon {
+  padding: 20px 10px;
+}
+
+/* Footer */
+#footer {
+  padding: 5% 15% 5%;
+}
+
+/* Mobile optimisation  */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
