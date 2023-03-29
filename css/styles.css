@@ -1,26 +1,39 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
-}
 
 h2{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 3rem;
 }
 
+h3{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
 p {
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #8f8f8f;
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
 }
 
 /* Headings */
 .big-heading {
-  font-family: "Montserrat-Bold";
-  letter-spacing: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 5rem;
+  letter-spacing: 1.2rem;
   text-align: center;
   padding-top: 17%;
   color: #0088CC;
@@ -60,7 +73,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
+  font-family: sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -71,19 +84,15 @@ body {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-light";
+  font-family: "Montserrat", sans-serif;
+  font-weight:100;
 }
 
 /* Title section  */
 #title .container-fluid {
-  padding: 2% 15% 20%;
+  padding: 2% 10%;
   display: block;
   height: 100vh;
-}
-
-/* Download buttons  */
-.download-btn {
-  margin: 5% 3% 5% 0;
 }
 
 /* About me section  */
@@ -92,87 +101,33 @@ body {
   text-align: left;
 }
 
-.about-me-text{
-
-}
-
 .profile-pic {
   width: 70%;
   position: relative;
   left: 10%;
 }
 
-/* Features section */
-#features {
+/* Interests section */
+#interests {
   /* position: relative;
   z-index: 1 */
 }
 
-.feature-heading {
+.interest-heading {
   font-size: 1.5rem;
 }
 
-.feature-box {
+.interest-box {
   padding: 3%;
 }
 
-.feature-icon {
+.interest-icon {
   color: #0088CC;
   margin-bottom: 1rem;
 }
 
-.feature-icon:hover {
+.interest-icon:hover {
   color: #666666;
-}
-
-/* Testimonials section  */
-#testimonials {
-  background-color: #ef8172;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.testimonial-img {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-/* Press section */
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-img {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-/* Pricing section  */
-#pricing {
-  padding: 100px;
-}
-
-.pricing-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.card-heading {
-  font-size: 1.5rem;
-}
-
-.pricing-col {
-  padding: 3% 2%;
-}
-
-/* CTA  */
-.social-icon {
-  padding: 20px 10px;
 }
 
 /* Footer */
@@ -180,14 +135,35 @@ body {
   padding: 5% 15% 5%;
 }
 
+.social-icon {
+  padding: 20px 10px;
+}
+
 /* Mobile optimisation  */
 @media (max-width: 1028px) {
-  #title {
-    text-align: center;
+  #title .container-fluid {
+    padding: 2% 5%;
+    display: block;
+    height: 100vh;
   }
 
-  .title-img {
+  #about-me .container-fluid{
+    text-align: center;
+    padding: 7% 5%;
+  }
+
+  .container-fluid {
+    padding: 7% 5%;
+  }
+
+  .big-heading{
+    font-size: 3rem;
+    letter-spacing: 0.8rem;
+  }
+
+  .profile-pic {
+    width: 60%;
     position: static;
-    transform: rotate(0);
+    padding-bottom: 5%;
   }
 }
