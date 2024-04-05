@@ -116,6 +116,24 @@ body {
   color: #666666;
 }
 
+.hello-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers the .text-content */
+  height: 100%;
+}
+
+.hello-text {
+  align-self: start; /* Aligns the text content to the start (left) */
+}
+
+.hello-icons {
+  display: flex; /* Keeps the icons in a horizontal row */
+  justify-content: start; /* Aligns the icons row to the start (left) */
+  margin-top: auto; /* Pushes the icons row to the bottom of the container */
+}
+
+
 /* Interests section */
 #interests {
   /* position: relative;
